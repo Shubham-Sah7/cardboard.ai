@@ -11,7 +11,7 @@ import { BrandWorkspace } from "@/components/brand-workspace"
 type ActiveScreen = "hub" | "studio"
 
 export default function CardboardPage() {
-  const [activeTab, setActiveTab] = useState<ActiveNavTab>("brand")
+  const [activeTab, setActiveTab] = useState<ActiveNavTab>("home")
   const [isCollapsed, setIsCollapsed] = useState(false)
   const [activeScreen, setActiveScreen] = useState<ActiveScreen>("hub")
   const [activeProjectTitle, setActiveProjectTitle] = useState("Product Onboarding Walkthrough")
