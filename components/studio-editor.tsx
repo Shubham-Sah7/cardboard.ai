@@ -71,7 +71,7 @@ import {
   CornerDownRight,
   X,
 } from "lucide-react"
-import { CardboardLogo, CardboardIcon } from "./cardboard-logo"
+import { CardboardLogo } from "./cardboard-logo"
 import {
   Dialog,
   DialogContent,
@@ -679,7 +679,7 @@ export function StudioEditor({
 
           <div className="h-4 w-[1px] bg-white/[0.1] hidden sm:block" />
 
-          <CardboardIcon className="w-4 h-4 text-white shrink-0 hidden sm:block" />
+          <CardboardLogo size="sm" className="hidden sm:flex" />
 
           {/* Project Name & Cloud Sync */}
           <div className="flex items-center gap-2">

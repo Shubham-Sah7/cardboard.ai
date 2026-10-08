@@ -34,7 +34,6 @@ import {
   Volume2,
   Folder,
 } from "lucide-react"
-import { CardboardIcon } from "./cardboard-logo"
 
 // ─── Interfaces ──────────────────────────────────────────────────────────────
 export interface BrandColor {
@@ -1262,10 +1261,9 @@ export function BrandWorkspace({ onOpenStudio }: BrandWorkspaceProps) {
                   }}
                 >
                   <div
-                    className="rounded bg-black/70 p-1.5 backdrop-blur-md border border-white/20 flex items-center gap-1.5 shadow-lg"
+                    className="rounded bg-black/70 px-2 py-1 backdrop-blur-md border border-white/20 flex items-center shadow-lg"
                     style={{ fontSize: `${watermark.size * 0.75}px` }}
                   >
-                    <CardboardIcon className="w-3.5 h-3.5 text-white shrink-0" />
                     <span className="text-white uppercase tracking-wider font-semibold">{brandName}</span>
                   </div>
                 </div>
